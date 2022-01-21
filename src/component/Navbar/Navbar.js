@@ -13,9 +13,9 @@ function Navbar({location}) {
         setClick(!click)
     }
 
-    function closeMobileMenu () {
-        setClick(false)
-    }
+    // function closeMobileMenu () {
+    //     setClick(false)
+    // }
 
     function changeNavbarColor (){
         if(window.scrollY >= 100){

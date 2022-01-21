@@ -12,11 +12,11 @@ function MainSection({lightBg,topLine,lightText,lightTextDesc,headLine,descripti
 
     <div className={lightBg ? 'home__hero-section': 'home__herosection darkBg'}>
         <div className="container">
-            <div className="row home__hero-row" style={{display: 'flex',flexDirection: imgStart=='start' ? 'row-reverse':'row'}}>
+            <div className="row home__hero-row" style={{display: 'flex',flexDirection: imgStart==='start' ? 'row-reverse':'row'}}>
             <Slide top duration={1000} distance="40px">
                 <div className="col">
                     <div className="home__hero_img-wrapper">
-                        <img src={img} alt={alt} className='home__hero-img' alt=''/>
+                        <img src={img} alt={alt} className='home__hero-img' />
                     </div>
                 </div>
             </Slide> 
