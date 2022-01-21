@@ -1,0 +1,15 @@
+.map{
+    margin-top: 20rem;
+    margin-bottom: -5%;
+    padding: 10px 100px;
+}
+
+
+@media screen and (max-width: 960px) {
+    .map{
+        margin-top: 10rem;
+        padding: 10px 20px;
+        height: 40vh;
+        /* margin-bottom: 10%; */
+    }
+}

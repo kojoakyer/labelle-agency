@@ -1,0 +1,31 @@
+.tag{
+    outline: none;
+    border: none;
+    color: rgb(82, 82, 82);
+    margin: 0px 30px;
+    font-size: 1rem;
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.active{
+    font-weight: bold;
+    background-color: rgb(243, 98, 243);
+    padding: 10px 20px;
+}
+
+
+@media screen and (max-width: 850px) {
+    .tag{
+        outline: none;
+        border: none;
+        color: rgb(82, 82, 82);
+        margin: 10px 20px;
+        font-size: 1rem;
+        text-decoration: none;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+}

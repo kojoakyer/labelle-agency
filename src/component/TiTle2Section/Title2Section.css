@@ -1,0 +1,52 @@
+.title2Section{
+    width: 100%;
+    height: 400px;
+    background-image: radial-gradient(#e2dede 20%, transparent 20%),
+    radial-gradient(#fafafa 20%, transparent 20%);
+    background-color: #fff;
+    background-position: 0 0, 50px 50px;
+    background-size: 30px 30px;
+    position: relative;
+    margin-top: 15rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title2 h2{
+    margin-top: 7%;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.title-btn{
+    position: absolute;
+    top: 60%;
+    left: 40%;
+}
+
+@media screen and (max-width:960px) {
+    .title2Section{
+        width: 100%;
+        height: 300px;
+        margin-top: 5rem;
+    }
+
+    .title2 h2{
+        margin-top: 10%;
+        font-size: 2rem;
+    }
+
+    .title-btn{
+        position: absolute;
+        top: 60%;
+        left: 30%;
+        font-size: 1rem;
+    }
+
+
+}
